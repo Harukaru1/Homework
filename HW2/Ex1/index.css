@@ -1,0 +1,269 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-bottom: solid;
+    margin-bottom: 50px;
+}
+
+.profile {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.profile h1 {
+    color: #21a2a1;
+
+}
+
+.container {
+    position: relative;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.firstbox {
+    position: relative;
+    margin-bottom: 50px;
+    column-count: 3;
+}
+
+.firstbox img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.aboutme {
+    margin-left: 100px;
+}
+
+.aboutme h2 {
+    color: #21a2a1;
+}
+
+.details h2 {
+    color: #21a2a1;
+}
+
+.details .title {
+    font-weight: 60;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.secondbox {
+    background-color: #f8ece4;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+
+.secondbox .title {
+    padding-top: 20px;
+    text-align: center;
+    color: #21a2a1;
+    font-size: 20px;
+}
+
+.content {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 80px;
+
+}
+
+.content h2 {
+    color: #21a2a1
+}
+
+.content .box {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .box .ct {
+    min-width: 300px;
+}
+
+.thirdbox .title {
+    text-align: center;
+    color: #21a2a1;
+    font-size: 25px;
+}
+
+.box1 ul li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.progress-bar {
+    position: relative;
+    width: 700px;
+    height: 0.7rem;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #21a2a1;
+    border-radius: 5px;
+}
+
+
+
+.box1 {
+    column-count: 2;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    background-color: white;
+    width: 100%;
+}
+
+.inner {
+    height: 100%;
+    background-color: orange;
+}
+
+
+.cool {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 7px;
+}
+
+.po {
+    margin-top: 20px;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: chartreuse;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    margin-left: 560px;
+    margin-right: 150px;
+}
+
+.Menu {
+    position: fixed;
+    right: 0;
+    display: flex;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    width: 200px;
+}
+
+#toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    background-color: #21a2a1;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+#toggle::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: aliceblue;
+    transform: translateY((-5px));
+    transition: 0.2s;
+}
+
+#toggle::after {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: aliceblue;
+    transform: translateY((5px));
+    transition: 0.2s;
+}
+
+#toggle.activate::before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+#toggle.activate::after {
+    transform: translateY(0px) rotate(-45deg);
+}
+
+#toggle.activate {
+    background: red;
+}
+
+#items {
+    position: relative;
+    height: 60px;
+    right: 60px;
+    transition: 0.5s;
+    width: 0px;
+    overflow: hidden;
+}
+
+#items ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#items ul li {
+    list-style: none;
+
+}
+
+#items ul li a {
+    color: black;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0 15px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+#items ul li a:hover {
+    background: #ffff;
+    background-color: #21a2a1;
+}
+
+#items.activate {
+    height: 280px;
+    width: 200px;
+}

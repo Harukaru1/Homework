@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: #0cc0f7;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-image: url("images/fubuki.jpg");
+  }
+  
+  .a {
+    background-image: url("images/pekora.jpg");
+  }
+  
+  .s {
+    background-image: url("images/coco.jpg");
+  }
+  
+  .d {
+    background-image: url("images/gura.jpg");
+  }
+  
+  .j {
+    background-image: url("images/waston.jpg");
+  }
+  
+  .k {
+    background-image: url("images/sui.jpg");
+  }
+  
+  .l {
+    background-image: url("images/suba.jpg");
+  }
+  
+  .h {
+    background-image: url("images/koro.jpg");
+  }
+  
+  .f {
+    background-image: url("images/okayu.jpg");
+  }
+  
+  .g {
+    background-image: url("images/botan.jpg");
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .holo {
+    outline: none;
+    border: 10px solid #0e4aef;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
